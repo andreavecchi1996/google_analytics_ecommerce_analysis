@@ -1,25 +1,32 @@
-# 🛍️ Google Analytics E-commerce Analysis
+# Google Analytics E-commerce Performance Analysis
 
-This project is part of my data analytics portfolio and focuses on analyzing web traffic and e-commerce behavior using the **Google Analytics Sample dataset** hosted on **BigQuery**.
+This project analyzes customer behavior and transaction performance using Google Analytics 360 data from the Google Merchandise Store. It demonstrates the ability to extract insights using SQL (via BigQuery), process data in Python (Jupyter), and present key findings through interactive dashboards (Power BI).
 
-## 🔍 Objectives
+## Dataset
 
-- Practice **SQL** for querying large datasets directly from **BigQuery**
-- Use **Python (in Jupyter Notebooks)** to connect, query, and analyze the data
-- Explore **user behavior**, traffic sources, and product performance
-- Build data visualizations using **Power BI Web**
-- Demonstrate best practices in **project versioning** using **Git and GitHub**
+- **Source**: Google Analytics Sample Dataset  
+- **Hosted on**: BigQuery  
+- **Date range**: July 2017  
+- **Table**: `bigquery-public-data.google_analytics_sample.ga_sessions_20170801`
 
-## 🧰 Tools & Technologies
+The dataset includes:
+- Traffic source details
+- User behavior on-site
+- Transactional and revenue data
 
-- Google BigQuery  
-- Python (Jupyter Notebooks)  
-- Power BI Web  
-- Git & GitHub  
-- Visual Studio Code
+## Objectives
 
+- Identify high-performing traffic sources
+- Analyze user engagement and pageview behavior
+- Compare purchase vs. non-purchase behavior
+- Calculate bounce rates, conversion metrics, and revenue per session
 
----
+## Tools & Technologies
+
+- **BigQuery** for cloud-based SQL queries
+- **Python** (Jupyter) for querying and data manipulation
+- **Power BI (Web)** for data visualization
+- **Git & GitHub** for version control and publishing
 
 ## 📄 License
 
