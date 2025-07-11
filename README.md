@@ -6,7 +6,7 @@ This project analyzes customer behavior and transaction performance using Google
 
 - **Source**: Google Analytics Sample Dataset  
 - **Hosted on**: BigQuery  
-- **Date range**: July 2017  
+- **Date range**: 01/08/2017
 - **Table**: `bigquery-public-data.google_analytics_sample.ga_sessions_20170801`
 
 The dataset includes:
